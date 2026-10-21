@@ -2,10 +2,14 @@
 body{
   font-size: 5rem;
   margin: 1rem;
-  background-image: url(../img/flames.gif);
+  background-image: url(./assets/img/flames.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color:black;
   color: whitesmoke;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 
