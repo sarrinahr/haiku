@@ -1,5 +1,5 @@
 
-body {
+body{
   font-size: 5rem;
   margin: 1rem;
   background-image: url(../img/flames.gif);
@@ -10,7 +10,7 @@ body {
 
 
 
-.grid-container {
+.grid-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
