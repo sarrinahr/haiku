@@ -24,7 +24,7 @@ body{
   padding-bottom: 2rem;
   border-bottom: 2px solid rgb(255, 255, 255, 0.2);
 }
-
+/* added styles for basic animation & class "red glow" to text
 .red-glow{
   transition: all .5s;
 }
@@ -34,4 +34,4 @@ body{
   transform: scale(1.5) rotate(45deg);
   text-shadow: 0 0 15px red;
 }
-
+*/
