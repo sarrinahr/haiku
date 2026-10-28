@@ -1,3 +1,3 @@
 // main.js
 
-console.log("Hello, World!");
+let grid = doculment.querySelectorAll(".grid-container");
