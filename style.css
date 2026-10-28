@@ -25,6 +25,10 @@ body{
   border-bottom: 2px solid rgb(255, 255, 255, 0.2);
 }
 
+.red-glow{
+  transition: all .5s;
+}
+
 .red-glow:hover{
   color: red;
   transform: scale(1.5) rotate(45deg);
