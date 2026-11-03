@@ -2,7 +2,7 @@
 body {
   font-size: 5rem;
   margin: 1rem;
-  background-image: url(./assets/img/flames.gif);
+  background-image: url(./assets/img/rain.gif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,13 +34,13 @@ div {
   border-bottom: 2px solid rgb(255, 255, 255, 0.2);
 }
 
-.red-glow {
+.pink-glow {
   transition: all .5s;
   font-style: italic;
 }
 
-.red-glow:hover {
-  color: red;
+.pink-glow:hover {
+  color: ##deb8b8;
   transform: scale(1.5) rotate(45deg);
   text-shadow: 0 0 15px red;
 }
