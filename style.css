@@ -40,7 +40,7 @@ div {
 }
 
 .pink-glow:hover {
-  color: ##deb8b8;
+  color: #deb8b8;
   transform: scale(1.5) rotate(45deg);
   text-shadow: 0 0 15px red;
 }
