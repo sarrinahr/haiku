@@ -17,6 +17,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
   margin: 10% 4rem 0 4rem;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
 }
 
 div {
@@ -24,10 +26,6 @@ div {
   transition-duration: 5s;
 }
 
-.grid-container div:nth-child(even) {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-}
 
 .last {
   padding-bottom: 2rem;
