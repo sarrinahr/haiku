@@ -55,6 +55,14 @@ div {
   transition-duration: 5s;
 }
 
+.poem-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
 .last {
   padding-bottom: 2rem;
   border-bottom: 2px solid rgb(255, 255, 255, 0.2);
