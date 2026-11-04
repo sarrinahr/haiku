@@ -21,11 +21,39 @@ body {
   font-style: italic;
 }
 
+
+body {
+  font-size: 5rem;
+  margin: 3rem;
+  background-image: url(./assets/img/rain.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.grid-container {
+  display: grid;
+  gap: 2rem;
+  margin: 10% 4rem 0 4rem;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+}
+
+.poem-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
 div {
   transition-property: transform;
   transition-duration: 5s;
 }
-
 
 .last {
   padding-bottom: 2rem;
