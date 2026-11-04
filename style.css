@@ -37,30 +37,24 @@ body {
 
 .grid-container {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
   margin: 10% 4rem 0 4rem;
-  font-family: 'Fraunces', serif;
-  font-style: italic;
 }
 
 .poem-line {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: center;
+}
+
+.poem-line div {
+  padding: 0.5rem;
 }
 
 div {
   transition-property: transform;
   transition-duration: 5s;
-}
-
-.poem-line {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: center;
-  padding: 1rem;
 }
 
 .last {
